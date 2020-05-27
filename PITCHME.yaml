@@ -6,15 +6,14 @@
 # Doc: https://gitpitch.com/docs/themes/default
 #
 theme            : template
-theme            : template
 
-theme-background : [ "linear-gradient(180deg, white 75%, black 25%)" ]
-theme-headline   : [ "Montserrat", "#93C54B", "none" ]
-theme-byline     : [ "Montserrat", "#111111", "none" ]
-theme-text       : [ "Raleway", "#1C1C1C", "none" ]
-theme-links      : [ "#62A503", "#718C00" ]
-theme-code       : [ "Fira Code" ]
-theme-controls   : [ "#C0C0C0" ]
+theme-background : [ "white" ]
+theme-headline   : [ "Righteous", "#E27924", "none" ]
+theme-byline     : [ "Concert One", black, "none" ]
+theme-text       : [ "Bubblegum", "#1C1C1C", "none" ]
+theme-links      : [ "#E27924", "#FF851B" ]
+theme-code       : [ "Source Code Pro" ]
+theme-controls   : [ "#484848" ]
 theme-margins    : [ "0", "15px" ]
 
 highlight        : tomorrow
