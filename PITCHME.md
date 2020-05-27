@@ -2,7 +2,6 @@
 
 ---
 
-@snapend
 ```php
 $cart = new Cart();
 $cart->add('ab123');
