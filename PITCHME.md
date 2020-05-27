@@ -19,9 +19,10 @@ $actual = $cart->read();
 Assert::assertSame($expected, $actual);
 ```
 @[1]
-@[2]
+@[1-2]
 @[4-7]
 @[8]
+@[4-8]
 @[10]
 @[1-10]
 
