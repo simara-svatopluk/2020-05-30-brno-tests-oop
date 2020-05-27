@@ -116,9 +116,7 @@ $cart->read()
 ```
 
 @css[text-white](Ujasnit si očekávání)
-```php text-white
-$expected = [...]
-```
+@css[text-white](Ujasnit si očekávání)
 @snapend
 
 ---
