@@ -2,9 +2,7 @@
 
 ---
 
-## Košík
-
-@snapend
+@snapend[code-reveal-slow]
 ```php zoom-18
 $cart = new Cart();
 $cart->add('ab123');
