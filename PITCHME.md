@@ -303,6 +303,40 @@ final class Room
 
 ---
 
+@snap[north-west span-50 text-center text-black]
+#### Implementace Místnosti
+@snapend
+
+```php
+final class Room
+{
+    private array $rooms = []; //self[]
+    private array $roots = []; //self[]
+
+    public function __construct(string $id){}
+
+    public function add(string $id, ?string $parentId)
+    {
+        $room = new self($id);
+
+        $this->rooms[$id] = $room;
+
+        if ($parentId === null) {
+            $this->roots[] = $room;
+        } else {
+            $this->rooms[$parentId]->roots[] = $room;
+        }
+    }
+}
+```
+
+@[1,8]
+@[1,3,8-12]
+@[1-4, 14-18]
+@[1-22]
+
+---
+
 
 
 
