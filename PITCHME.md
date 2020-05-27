@@ -80,6 +80,35 @@ Assert::assertSame($expected, $cart->read());
 
 ---
 
+@snap[north-west span-50 text-center text-black]
+Mazání neexistující produktu
+@snapend
+
+```php
+$cart = new Cart();
+$cart->remove('ab123');
+
+$expected = ???;
+$expected = [];
+
+Assert::assertSame($expected, $cart->read());
+
+$this->expectException(ProductNotInCartException::class);
+$cart->remove('ab123');
+```
+
+@snap[south span-100 text-gray text-08]
+@[1-2]
+@[1-4](Co se má vlastně stát?)
+@[5](Možná budeme takovou situaci ignorovat)
+@[1-2,5-7](Možná budeme takovou situaci ignorovat)
+@[9](Anebo jde o situaci, která nemá nastat)
+@[1-2,9-10](Anebo jde o situaci, která nemá nastat)
+@[5](Tak či onak si musíme ujasnit očekávání)
+@snapend
+
+---
+
 ### Add Some Slide Candy
 
 ![IMAGE](assets/img/presentation.png)
