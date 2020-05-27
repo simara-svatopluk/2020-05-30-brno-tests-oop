@@ -233,6 +233,8 @@ Assert::assertSame($expected, $cart->read());
 @[4-12]
 @[1-13]
 
+---
+
 ### Add Some Slide Candy
 
 ![IMAGE](assets/img/presentation.png)
