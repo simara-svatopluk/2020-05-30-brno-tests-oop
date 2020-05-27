@@ -14,12 +14,15 @@ $expected = [
     'ab123' => 1,
 ];
 
-Assert::assertSame($expected, $cart->read());
+$actual = $cart->read();
+
+Assert::assertSame($expected, $actual);
 ```
 @[1]
 @[2]
 @[4-7]
 @[8]
+@[10]
 
 ---
 
