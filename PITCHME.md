@@ -75,7 +75,6 @@ Assert::assertSame($expected, $cart->read());
 @[1-2](Nejprve musíme košík naplnit)
 @[1-3]
 @[5](Očekáváme, že košík je opravdu prázdný)
-@[4-7](Něco se děje, a nás zajímá výsledek)
 @[1-7]
 @snapend
 
