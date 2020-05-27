@@ -104,7 +104,7 @@ $cart->remove('ab123');
 @[1-2,5-7](Možná budeme takovou situaci ignorovat)
 @[9](Anebo jde o situaci, která nemá nastat)
 @[1-2,9-10](Anebo jde o situaci, která nemá nastat)
-@[5](Tak či onak si musíme ujasnit očekávání)
+@[4](Tak či onak si musíme ujasnit očekávání)
 @snapend
 
 ---
