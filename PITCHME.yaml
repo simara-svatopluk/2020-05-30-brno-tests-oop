@@ -16,7 +16,7 @@ theme-code       : [ "Source Code Pro" ]
 theme-controls   : [ "#484848" ]
 theme-margins    : [ "0", "15px" ]
 
-highlight        : tomorrow
+highlight        : solarized-light
 
 #
 # Theme-Override Setting
