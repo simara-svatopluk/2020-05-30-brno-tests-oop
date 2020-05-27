@@ -272,6 +272,20 @@ final class Cart
 ---
 
 @snap[north-west span-50 text-center text-black]
+#### Delegování
+@snapend
+
+@snap[west span-55]
+@ul[list-spaced-bullets text-09]
+- není třeba dělat vše v košíku
+- definujeme, co bude dělat někdo jiný
+- nezajímá nás, jak to bude dělat
+@ulend
+@snapend
+
+---
+
+@snap[north-west span-50 text-center text-black]
 #### Implementace Místnosti
 @snapend
 
