@@ -6,18 +6,7 @@
 Triviální začátek
 @snapend
 
-```java
-Cart cart = new Cart();
-cart.add('ab123');
-
-array expected = [
-    'ab123' => 1,
-];
-
-actual = cart.read();
-
-Assert::assertSame(expected, actual);
-
+```php
 $cart = new Cart();
 $cart->add('ab123');
 
