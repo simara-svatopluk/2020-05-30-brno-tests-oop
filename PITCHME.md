@@ -167,18 +167,21 @@ final class Cart
 final class Cart
 {
     private array $products = [];
-
     public function add(string $id): void
     {
+        if (isset($this->products[$id])) {
+            $this->products[$id]++;
+        } else {
+            $this->products[$id] = 1;
+        }
     }
-
     public function read(): array
     {
         return $this->products;
     }
-
     public function remove(string $id): void
     {
+        unset($this->products[$id]);
     }
 }
 ```
