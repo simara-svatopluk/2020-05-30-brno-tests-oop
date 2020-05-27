@@ -110,18 +110,12 @@ $cart->remove('ab123');
 ---
 
 @snap[north-east span-45]
-Vnější pohled na objekt
-```php
-$cart->read();
-```
-@snapend
-
-
-@snap[north-east span-45]
-Ujasnit si očekávání
-```php
-$expected = [...];
-```
+@ul[list-spaced-bullets text-09]
+- Vnější pohled na objekt
+- `$cart->read()`
+- Ujasnit si očekávání
+- ``$expected = [...]`
+@ulend
 @snapend
 
 ---
