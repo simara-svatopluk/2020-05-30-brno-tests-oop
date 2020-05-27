@@ -114,6 +114,11 @@ Vnější pohled na objekt
 ```php
 $cart->read()
 ```
+
+@css[text-white](Ujasnit si očekávání)
+```php text-white
+$expected = [...]
+```
 @snapend
 
 ---
