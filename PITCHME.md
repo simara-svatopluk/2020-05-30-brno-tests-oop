@@ -220,11 +220,12 @@ $cart->addRoom('bathroom', 'hall-a');
 
 $expected = [
     'hall-a' => [
-        'products' => [],
         'bathroom' => [
             'products' => [],
         ],
-    ]
+        'products' => [],
+    ],
+    'products' => [],
 ];
 Assert::assertSame($expected, $cart->read());
 ```
@@ -232,9 +233,9 @@ Assert::assertSame($expected, $cart->read());
 @[1]
 @[1,2]
 @[1-3]
-@[1-3, 13]
-@[4-12]
-@[1-13]
+@[1-3, 14]
+@[4-13]
+@[1-14]
 
 ---
 
