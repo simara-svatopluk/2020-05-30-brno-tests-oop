@@ -109,6 +109,23 @@ $cart->remove('ab123');
 
 ---
 
+@snap
+Vnější pohled na objekt
+```php
+$cart->read();
+```
+@snapend
+
+
+@snap
+Ujasnit si očekávání
+```php
+$expected = [...];
+```
+@snapend
+
+---
+
 ### Add Some Slide Candy
 
 ![IMAGE](assets/img/presentation.png)
