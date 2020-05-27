@@ -23,7 +23,6 @@ Assert::assertSame($expected, $actual);
 @[4-7]
 @[8]
 @[4-8]
-@[10]
 @[1-10]
 
 ---
