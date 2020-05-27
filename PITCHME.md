@@ -315,7 +315,7 @@ final class Room
 
     public function __construct(string $id){}
 
-    public function add(string $id, ?string $parentId)
+    public function add(string $id, ?string $parentId): void
     {
         $room = new self($id);
 
