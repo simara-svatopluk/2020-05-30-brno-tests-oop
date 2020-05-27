@@ -2,8 +2,8 @@
 
 ---
 
-@snapend[code-reveal-slow]
-```php zoom-18
+@snapend
+```php zoom-18 code-reveal-slow
 $cart = new Cart();
 $cart->add('ab123');
 
