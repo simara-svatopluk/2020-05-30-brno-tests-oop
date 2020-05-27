@@ -56,6 +56,31 @@ Assert::assertSame($expected, $cart->read());
 
 ---
 
+@snap[north-west span-50 text-center text-black]
+Smazání produktu
+@snapend
+
+```php
+$cart = new Cart();
+$cart->add('ab123');
+$cart->remove('ab123');
+
+$expected = [];
+
+Assert::assertSame($expected, $cart->read());
+```
+
+@snap[south span-100 text-gray text-08]
+@[1]
+@[1-2](Nejprve musíme košík naplnit)
+@[1-3]
+@[5](Očekáváme, že košík je opravdu prázdný)
+@[4-7](Něco se děje, a nás zajímá výsledek)
+@[1-7]
+@snapend
+
+---
+
 ### Add Some Slide Candy
 
 ![IMAGE](assets/img/presentation.png)
