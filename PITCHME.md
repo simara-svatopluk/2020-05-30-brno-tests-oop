@@ -31,7 +31,7 @@ Assert::assertSame($expected, $actual);
 ---
 
 @snap[north-west span-50 text-center text-black]
-Více stejných produktů
+#### Více stejných produktů
 @snapend
 
 ```php
@@ -57,7 +57,7 @@ Assert::assertSame($expected, $cart->read());
 ---
 
 @snap[north-west span-50 text-center text-black]
-Smazání produktu
+#### Smazání produktu
 @snapend
 
 ```php
@@ -81,7 +81,7 @@ Assert::assertSame($expected, $cart->read());
 ---
 
 @snap[north-west span-50 text-center text-black]
-Mazání neexistující produktu
+#### Mazání neexistující produktu
 @snapend
 
 ```php
@@ -110,7 +110,7 @@ $cart->remove('ab123');
 ---
 
 @snap[center span-50 text-center text-black text-left]
-Vnější pohled na objekt
+#### Vnější pohled na objekt
 ```php
 $cart->read()
 ```
@@ -122,12 +122,12 @@ $cart->read()
 ---
 
 @snap[center span-50 text-center text-black text-left]
-Vnější pohled na objekt
+#### Vnější pohled na objekt
 ```php
 $cart->read()
 ```
 
-Ujasnit si očekávání
+#### Ujasnit si očekávání
 ```php
 $expected = [...]
 ```
