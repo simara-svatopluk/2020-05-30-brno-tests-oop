@@ -197,7 +197,7 @@ final class Cart
 #### Složitější use-case
 @snapend
 
-@snap[midpoint span-55]
+@snap[midpoint span-75]
 @ul[list-spaced-bullets text-09]
 - **Místnosti** v rámci košíku
 - Pomáhají v orientaci ve velkých košících
@@ -275,7 +275,7 @@ final class Cart
 #### Delegování
 @snapend
 
-@snap[west span-55]
+@snap[midpoint span-75]
 @ul[list-spaced-bullets text-09]
 - není třeba dělat vše v košíku
 - definujeme, co bude dělat někdo jiný
@@ -356,7 +356,7 @@ final class Room
 #### Zapouzdření
 @snapend
 
-@snap[west span-55]
+@snap[wmidpoint span-75]
 @ul[list-spaced-bullets text-09]
 - zajímá nás jen, co košík umí a co vrací
 - v testech nás nezajímá, co je uvnitř
