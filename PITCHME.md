@@ -6,7 +6,7 @@
 Triviální začátek
 @snapend
 
-```php
+```java
 $cart = new Cart();
 $cart->add('ab123');
 
