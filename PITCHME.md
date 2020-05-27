@@ -2,17 +2,7 @@
 
 ---
 
-@snapend
-```php code-reveal-slow
-$cart = new Cart();
-$cart->add('ab123');
-
-$expected = [
-    'ab123' => 1,
-];
-
-Assert::assertSame($expected, $cart->read());
-```
+@code[php code-reveal-slow](trivial.php)
 
 @snap[south span-100 text-gray text-08]
 @[1](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
