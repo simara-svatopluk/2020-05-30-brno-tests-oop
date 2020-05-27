@@ -2,7 +2,7 @@
 
 ---
 
-@snap[top span-55]
+@snap[top span-55 text-black]
 Triviální začátek
 @snapend
 
