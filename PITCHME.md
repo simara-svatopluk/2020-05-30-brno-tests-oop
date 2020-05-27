@@ -338,6 +338,23 @@ final class Room
 ---
 
 
+@snap[north-west span-50 text-center text-black]
+#### Důležité aspekty OOP
+@snapend
+
+@snap[west span-55]
+@ul[list-spaced-bullets text-09]
+- **Delegování**
+- není třeba dělat vše v košíku
+- **Zapouzdření**
+- zajímá nás jen, co košík umí a co vrací
+- v testech nás nezajímá, co je uvnitř
+- prostor pro refaktoring
+@ulend
+@snapend
+
+---
+
 
 
 
