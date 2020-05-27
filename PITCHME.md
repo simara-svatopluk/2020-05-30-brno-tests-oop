@@ -269,6 +269,43 @@ final class Cart
 @[3,15-18]
 @[1-20]
 
+---
+
+@snap[north-west span-50 text-center text-black]
+#### Implementace Místnosti
+@snapend
+
+```php
+final class Room
+{
+    private string $id;
+
+    /**
+     * @var self[]
+     */
+    private array $roots = [];
+
+    public function __construct(string $id)
+    {
+        $this->id = $id;
+    }
+
+    public function toArray(): array
+    {
+        $result = [];
+        foreach ($this->roots as $room) {
+            $result[$room->id] = $room->toArray();
+        }
+        $result['products'] = [];
+        return $result;
+    }
+}
+```
+
+@[1,2,10,15]
+@[3,10-14]
+@[3,15-18]
+@[1-20]
 
 ---
 
