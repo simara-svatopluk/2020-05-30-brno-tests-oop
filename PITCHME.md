@@ -45,10 +45,13 @@ $expected = [
 
 Assert::assertSame($expected, $cart->read());
 ```
+
+@snap[south span-100 text-gray text-08]
 @[1]
-@[1-3]
-@[4-7]
+@[1-3](Více akcí)
+@[4-7](TA business/doménová logika. Něco se děje, a nás zajímá výsledek, ne průběh)
 @[1-9]
+@snapend
 
 ---
 
