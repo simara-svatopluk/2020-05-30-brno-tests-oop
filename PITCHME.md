@@ -23,6 +23,28 @@ Assert::assertSame($expected, $cart->read());
 
 ---
 
+@snap[north-west span-50 text-center text-black]
+Více stejných produktů
+@snapend
+
+```php
+$cart = new Cart();
+$cart->add('ab123');
+$cart->add('ab123');
+
+$expected = [
+    'ab123' => 2,
+];
+
+Assert::assertSame($expected, $cart->read());
+```
+@[1]
+@[2-3]
+@[4-7]
+@[9]
+
+---
+
 ### Add Some Slide Candy
 
 ![IMAGE](assets/img/presentation.png)
