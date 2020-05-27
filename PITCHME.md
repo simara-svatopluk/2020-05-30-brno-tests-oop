@@ -118,6 +118,9 @@ $cart->remove('ab123');
 @ulend
 @snapend
 
+@[1-2]
+@[3-4]
+
 ---
 
 ### Add Some Slide Candy
