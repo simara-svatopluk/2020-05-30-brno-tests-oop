@@ -345,11 +345,11 @@ final class Room
 @snap[west span-55]
 @ul[list-spaced-bullets text-09]
 - **Delegování**
-- není třeba dělat vše v košíku
+  - není třeba dělat vše v košíku
 - **Zapouzdření**
-- zajímá nás jen, co košík umí a co vrací
-- v testech nás nezajímá, co je uvnitř
-- prostor pro refaktoring
+  - zajímá nás jen, co košík umí a co vrací
+  - v testech nás nezajímá, co je uvnitř
+  - prostor pro refaktoring
 @ulend
 @snapend
 
