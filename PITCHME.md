@@ -200,8 +200,8 @@ final class Cart
 @snap[west span-55]
 @ul[list-spaced-bullets text-09]
 - **Místnosti** v rámci košíku
-- Místnosti obsahují produkty
 - Pomáhají v orientaci ve velkých košících
+- Místnosti obsahují produkty
 - Hierarchicky neomezeně zanořené
 @ulend
 @snapend
