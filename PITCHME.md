@@ -3,7 +3,7 @@
 ---
 
 @snapend
-```php zoom-18 code-reveal-slow
+```php code-reveal-slow
 $cart = new Cart();
 $cart->add('ab123');
 
