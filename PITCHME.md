@@ -208,6 +208,31 @@ final class Cart
 
 ---
 
+
+@snap[north-west span-50 text-center text-black]
+#### Místnosti
+@snapend
+
+```php
+$cart = new Cart();
+$cart->addRoom('hall-a');
+$cart->addRoom('bathroom', 'hall-a');
+
+$expected = [
+    'hall-a' => [
+        'products' => [],
+        'bathroom' => [
+            'products' => [],
+        ],
+    ]
+];
+Assert::assertSame($expected, $cart->read());
+```
+
+@[1-3, 13]
+@[4-12]
+@[1-13]
+
 ### Add Some Slide Candy
 
 ![IMAGE](assets/img/presentation.png)
