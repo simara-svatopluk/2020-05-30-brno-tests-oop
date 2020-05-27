@@ -121,7 +121,7 @@ $cart->read()
 
 ---
 
-@snap[center span-50 text-center text-black]
+@snap[center span-50 text-center text-black text-left]
 Vnější pohled na objekt
 ```php
 $cart->read()
@@ -134,6 +134,10 @@ $expected = [...]
 @snapend
 
 ---
+
+
+
+
 
 ### Add Some Slide Candy
 
