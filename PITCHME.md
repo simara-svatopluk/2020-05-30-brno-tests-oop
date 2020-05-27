@@ -158,11 +158,6 @@ final class Cart
     {
         return $this->products;
     }
-
-    public function remove(string $id): void
-    {
-        unset($this->products[$id]);
-    }
 }
 
 ```
