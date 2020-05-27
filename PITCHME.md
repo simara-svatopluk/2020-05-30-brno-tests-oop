@@ -18,12 +18,15 @@ $actual = $cart->read();
 
 Assert::assertSame($expected, $actual);
 ```
+
+@snap[south span-100 text-gray text-08]
 @[1]
-@[1-2]
-@[4-7]
-@[8]
+@[1-2](Uživatelská akce)
+@[4-7](Jak očekáváme, že bude vypadat výsledek)
+@[8](Vnější pohled na košík)
 @[4-8]
 @[1-10]
+@snapend
 
 ---
 
