@@ -2,7 +2,7 @@
 
 ---
 
-```php
+```php text-gray
 $cart = new Cart();
 $cart->add('ab123');
 
