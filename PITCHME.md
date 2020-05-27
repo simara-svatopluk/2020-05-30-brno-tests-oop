@@ -169,10 +169,10 @@ final class Cart
     private array $products = [];
     public function add(string $id): void
     {
-        if (isset($this->products[$id])) {
-            $this->products[$id]++;
-        } else {
+        if (!isset($this->products[$id])) {
             $this->products[$id] = 1;
+        } else {
+            $this->products[$id]++;
         }
     }
     public function read(): array
@@ -186,7 +186,8 @@ final class Cart
 }
 ```
 @[3,12-15]
-@[3,4-11]
+@[3,4-7,10,11]
+@[3,4-6,8-11]
 @[3,16-19]
 @[1-20]
 
