@@ -197,7 +197,7 @@ final class Cart
 #### Složitější use-case
 @snapend
 
-@snap[west span-55]
+@snap[midpoint span-55]
 @ul[list-spaced-bullets text-09]
 - **Místnosti** v rámci košíku
 - Pomáhají v orientaci ve velkých košících
