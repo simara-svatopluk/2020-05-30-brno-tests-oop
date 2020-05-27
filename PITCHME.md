@@ -24,7 +24,7 @@ Assert::assertSame($expected, $actual);
 @[1-2](Uživatelská akce)
 @[4-7](Jak očekáváme, že bude vypadat výsledek)
 @[8](Vnější pohled na košík)
-@[4-8]
+@[4-8](Vnější pohled na košík)
 @[1-10]
 @snapend
 
