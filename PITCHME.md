@@ -2,6 +2,10 @@
 
 ---
 
+@snap[top span-55]
+## Triviální začátek
+@snapend
+
 ```php
 $cart = new Cart();
 $cart->add('ab123');
