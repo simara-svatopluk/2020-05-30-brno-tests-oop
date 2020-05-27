@@ -279,7 +279,7 @@ final class Cart
 final class Room
 {
     private string $id;
-    private array $roots = [];
+    private array $roots = []; //self[]
     public function __construct(string $id)
     {
         $this->id = $id;
