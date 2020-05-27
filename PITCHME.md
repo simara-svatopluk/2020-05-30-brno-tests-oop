@@ -109,7 +109,7 @@ $cart->remove('ab123');
 
 ---
 
-@snap[west span-45]
+@snap[north-west span-50 text-center text-black]
 @ul[list-spaced-bullets]
 - Vnější pohled na objekt
 - `$cart->read()`
