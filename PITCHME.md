@@ -2,7 +2,7 @@
 
 ---
 
-```php text-gray
+```php
 $cart = new Cart();
 $cart->add('ab123');
 
@@ -12,13 +12,10 @@ $expected = [
 
 Assert::assertSame($expected, $cart->read());
 ```
-
-@snap[south span-100 text-gray text-08]
-@[1]()
-@[2]()
-@[4-7]()
-@[8]()
-@snapend
+@[1]
+@[2]
+@[4-7]
+@[8]
 
 ---
 
