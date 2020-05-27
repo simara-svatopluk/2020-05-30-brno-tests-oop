@@ -193,7 +193,20 @@ final class Cart
 
 ---
 
+@snap[north-west span-50 text-center text-black]
+#### Složitější use-case
+@snapend
 
+@snap[west span-55]
+@ul[list-spaced-bullets text-09]
+- **Místnosti** v rámci košíku
+- Místnosti obsahují produkty
+- Pomáhají v orientaci ve velkých košících
+- Hierarchicky neomezeně zanořené
+@ulend
+@snapend
+
+---
 
 ### Add Some Slide Candy
 
