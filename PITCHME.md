@@ -43,9 +43,9 @@ $expected = [
 Assert::assertSame($expected, $cart->read());
 ```
 @[1]
-@[2-3]
+@[1-3]
 @[4-7]
-@[9]
+@[1-9]
 
 ---
 
