@@ -6,22 +6,18 @@
 # Doc: https://gitpitch.com/docs/themes/default
 #
 theme            : template
+theme            : template
 
-theme-background : [ "#FFFFFF" ]
-theme-headline   : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
-theme-byline     : [ "Raleway", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
-theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
-theme-links      : [ "#F1C40F", "#5254F7" ]
-theme-code       : [ "Source Code Pro", "100", "120" ]
+theme-background : [ "linear-gradient(180deg, white 75%, black 25%)" ]
+theme-headline   : [ "Montserrat", "#93C54B", "none" ]
+theme-byline     : [ "Montserrat", "#111111", "none" ]
+theme-text       : [ "Raleway", "#1C1C1C", "none" ]
+theme-links      : [ "#62A503", "#718C00" ]
+theme-code       : [ "Fira Code" ]
 theme-controls   : [ "#C0C0C0" ]
 theme-margins    : [ "0", "15px" ]
-layout           : center
 
-#
-# Highlight Setting
-# Doc: https://gitpitch.com/docs/settings/highlight
-#
-highlight : tomorrow
+highlight        : tomorrow
 
 #
 # Theme-Override Setting
