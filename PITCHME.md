@@ -229,6 +229,9 @@ $expected = [
 Assert::assertSame($expected, $cart->read());
 ```
 
+@[1]
+@[1,2]
+@[1-3]
 @[1-3, 13]
 @[4-12]
 @[1-13]
