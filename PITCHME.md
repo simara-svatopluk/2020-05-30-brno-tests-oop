@@ -1,4 +1,19 @@
-# Let's Get **Started** this
+# Testy ke kvalitnímu OOP
+
+---
+
+## Košík
+
+```php
+$cart = new Cart();
+$cart->add('ab123');
+
+$expected = [
+    'ab123' => 1,
+];
+
+Assert::assertSame($expected, $cart->read());
+```
 
 ---
 
