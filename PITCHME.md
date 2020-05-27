@@ -109,7 +109,7 @@ $cart->remove('ab123');
 
 ---
 
-@snap
+@snap[north-east span-45]
 Vnější pohled na objekt
 ```php
 $cart->read();
@@ -117,7 +117,7 @@ $cart->read();
 @snapend
 
 
-@snap
+@snap[north-east span-45]
 Ujasnit si očekávání
 ```php
 $expected = [...];
