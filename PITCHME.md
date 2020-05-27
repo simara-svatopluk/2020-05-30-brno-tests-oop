@@ -3,7 +3,7 @@
 ---
 
 @snap[north-west span-50 text-center text-black]
-Triviální začátek
+### Triviální začátek
 @snapend
 
 ```php
