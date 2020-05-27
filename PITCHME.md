@@ -208,7 +208,6 @@ final class Cart
 
 ---
 
-
 @snap[north-west span-50 text-center text-black]
 #### Místnosti
 @snapend
@@ -238,6 +237,44 @@ Assert::assertSame($expected, $cart->read());
 @[1-14]
 
 ---
+
+@snap[north-west span-50 text-center text-black]
+#### Implementace
+@snapend
+
+```php
+final class Cart
+{
+    private Rooms $rooms;
+
+    public function __construct()
+    {
+        $this->rooms = new Rooms('');
+    }
+
+    public function addRoom(string $id, ?string $parentId = null): void
+    {
+        $this->rooms->add($id, $parentId);
+    }
+
+    public function read(): array
+    {
+        return $this->rooms->toArray();
+    }
+}
+```
+
+@[1,2,10,15]
+@[3,10-14]
+@[3,15-18]
+@[1-20]
+
+
+---
+
+
+
+
 
 ### Add Some Slide Candy
 
