@@ -3,7 +3,7 @@
 ---
 
 @snap[top span-55]
-## Triviální začátek
+Triviální začátek
 @snapend
 
 ```php
