@@ -109,7 +109,7 @@ $cart->remove('ab123');
 
 ---
 
-@snap[center span-50 text-center text-black]
+@snap[center span-50 text-center text-black text-left]
 Vnější pohled na objekt
 ```php
 $cart->read()
