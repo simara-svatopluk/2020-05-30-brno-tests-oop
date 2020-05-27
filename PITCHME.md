@@ -279,17 +279,11 @@ final class Cart
 final class Room
 {
     private string $id;
-
-    /**
-     * @var self[]
-     */
     private array $roots = [];
-
     public function __construct(string $id)
     {
         $this->id = $id;
     }
-
     public function toArray(): array
     {
         $result = [];
