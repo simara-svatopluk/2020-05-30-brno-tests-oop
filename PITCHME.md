@@ -136,6 +136,48 @@ $expected = [...]
 ---
 
 
+@snap[north-west span-50 text-center text-black]
+#### Implementace
+@snapend
+
+```php
+final class Cart
+{
+    private array $products = [];
+
+    public function add(string $id): void
+    {
+        if (isset($this->products[$id])) {
+            $this->products[$id]++;
+        } else {
+            $this->products[$id] = 1;
+        }
+    }
+
+    public function read(): array
+    {
+        return $this->products;
+    }
+
+    public function remove(string $id): void
+    {
+        unset($this->products[$id]);
+    }
+}
+
+```
+
+@snap[south span-100 text-gray text-08]
+@[1-2]
+@[1-4](Co se má vlastně stát?)
+@[5](Možná budeme takovou situaci ignorovat)
+@[1-2,5-7](Možná budeme takovou situaci ignorovat)
+@[9](Anebo jde o situaci, která nemá nastat)
+@[1-2,9-10](Anebo jde o situaci, která nemá nastat)
+@[4](Tak či onak si musíme ujasnit očekávání)
+@snapend
+
+---
 
 
 
