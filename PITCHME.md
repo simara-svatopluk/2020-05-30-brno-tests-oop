@@ -245,21 +245,21 @@ Assert::assertSame($expected, $cart->read());
 ```php
 final class Cart
 {
-    private Rooms $rooms;
+    private Room $room;
 
     public function __construct()
     {
-        $this->rooms = new Rooms('');
+        $this->room = new Room('');
     }
 
     public function addRoom(string $id, ?string $parentId = null): void
     {
-        $this->rooms->add($id, $parentId);
+        $this->room->add($id, $parentId);
     }
 
     public function read(): array
     {
-        return $this->rooms->toArray();
+        return $this->room->toArray();
     }
 }
 ```
