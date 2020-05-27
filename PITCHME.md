@@ -16,7 +16,8 @@ Assert::assertSame($expected, $cart->read());
 @snap[south span-100 text-gray text-08]
 @[1]()
 @[2]()
-@[4-8]()
+@[4-7]()
+@[8]()
 @snapend
 
 ---
