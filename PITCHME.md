@@ -13,8 +13,10 @@ Pomáhám dostat logiku do entit
 ---
 
 @snap[north-west span-50 text-center text-black]
-#### Košík
+#### Nákupní košík
 @snapend
+
+---?image=assets/img/groceries-vector-full-shopping-bag-2.png&opacity=60&position=left&size=45% 100%
 
 @snap[span-75]
 @ul[list-spaced-bullets text-09]
