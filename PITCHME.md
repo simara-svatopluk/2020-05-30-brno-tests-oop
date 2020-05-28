@@ -157,6 +157,11 @@ final class Cart
 
 ```
 
+@snap[south span-100 text-gray text-08]
+Metody - neboli rozhraní - nemusíme vynalézat, je definováno testy
+@snapend
+
+
 ---
 
 @snap[north-west span-50 text-center text-black]
@@ -185,10 +190,10 @@ final class Cart
     }
 }
 ```
-@[3,12-15]
-@[3,4-7,10,11]
-@[3,4-6,8-11]
-@[3,16-19]
+@[3,12-15](Čtení může být triviální)
+@[3,4-7,10,11](Pokud produkt v košíku není, tak ho přidáme jednou)
+@[3,4-6,8-11](Pokud produkt v košíku je, počet inkrementujeme)
+@[3,16-19](Odstaňování je triviální)
 @[1-20]
 
 ---
