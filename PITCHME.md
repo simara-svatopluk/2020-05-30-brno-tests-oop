@@ -16,7 +16,7 @@ Pomáhám dostat logiku do entit
 ### Klasický nákupní košík
 @snapend
 
-@snap[middlepoint span-45]
+@snap[midpoint span-55]
 ![IMAGE](assets/img/groceries-vector-full-shopping-bag-2.png)
 @snapend
 
