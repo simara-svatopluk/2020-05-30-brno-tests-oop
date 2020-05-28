@@ -201,7 +201,9 @@ final class Cart
 
 ---
 
+@snap[north-west span-50 text-center text-black]
 ### Složitější use-case
+@snapend
 
 @snap[midpoint span-75]
 @ul[list-spaced-bullets text-09]
@@ -365,8 +367,9 @@ final class Room
 
 ---
 
-
+@snap[north-west span-50 text-center text-black]
 ### Zapouzdření
+@snapend
 
 @snap[wmidpoint span-75]
 @ul[list-spaced-bullets text-09]
