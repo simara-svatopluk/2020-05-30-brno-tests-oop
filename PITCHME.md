@@ -16,7 +16,9 @@ Pomáhám dostat logiku do entit
 #### Nákupní košík
 @snapend
 
----?image=assets/img/groceries-vector-full-shopping-bag-2.png&opacity=60&position=left&size=45% 100%
+@snap[east span-45]
+![IMAGE](assets/img/groceries-vector-full-shopping-bag-2.png&opacity=60&position=left&size=45% 100%)
+@snapend
 
 @snap[span-75]
 @ul[list-spaced-bullets text-09]
