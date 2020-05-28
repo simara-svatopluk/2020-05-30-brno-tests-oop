@@ -281,10 +281,10 @@ final class Cart
 
 @snap[midpoint span-75]
 @ul[list-spaced-bullets text-09]
-- není třeba dělat vše v košíku
-- definujeme, co bude dělat někdo jiný
-- nezajímá nás, jak to bude dělat
-- TA logika
+- Není třeba dělat vše v košíku
+- Definujeme, co bude dělat někdo jiný
+- Nezajímá nás, jak to bude dělat
+- Opět - TA logika
 @ulend
 @snapend
 
