@@ -34,8 +34,6 @@ Pomáhám dostat logiku do entit
 #### Datová struktura
 @snapend
 
-@table[table-header table-fragment](assests/data_structure.csv)
-
 | item_id | cart_id | product_id | amount |
 |---------|---------|------------|--------|
 | 1       | 1       | 44         | 1      |
