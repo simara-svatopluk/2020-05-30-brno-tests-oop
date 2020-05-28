@@ -124,32 +124,6 @@ $cart->remove('ab123');
 
 ---
 
-@snap[center span-50 text-center text-black text-left]
-### Vnější pohled na objekt
-```php
-$cart->read()
-```
-
-@css[text-white](Ujasnit si očekávání)
-@css[text-white](Ujasnit si očekávání)
-@snapend
-
----
-
-@snap[center span-50 text-center text-black text-left]
-### Vnější pohled na objekt
-```php
-$cart->read()
-```
-
-### Ujasnit si očekávání
-```php
-$expected = [...]
-```
-@snapend
-
----
-
 @snap[north-west span-50 text-center text-black]
 #### Implementace
 @snapend
