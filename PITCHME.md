@@ -117,7 +117,7 @@ $cart->remove('ab123');
 @ul[list-spaced-bullets text-09]
 - Vnější pohled na objekt
   - **`$cart->read()`**
-- Ujasnit si, co že má být výsledek
+- Ujasnit si, co má být výsledek
   - **`$expected = [...]`**
 @ulend
 @snapend
