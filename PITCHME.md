@@ -34,14 +34,12 @@ Pomáhám dostat logiku do entit
 #### Datová struktura
 @snapend
 
-<table>
-<tr>
-    <th>item_id</th>
-    <th>cart_id</th>
-    <th>product_id</th>
-    <th>amount</th>
-</tr>
-</table>
+| item_id | cart_id | product_id | amount |
+|---------|---------|------------|--------|
+| 1       | 1       | 44         | 1      |
+| 2       | 1       | 55         | 1      |
+| 3       | 2       | 15         | 2      |
+| 4       | 2       | 87         | 1      |
 
 ---
 
