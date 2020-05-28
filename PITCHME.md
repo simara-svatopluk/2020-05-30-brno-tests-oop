@@ -280,6 +280,7 @@ final class Cart
 - není třeba dělat vše v košíku
 - definujeme, co bude dělat někdo jiný
 - nezajímá nás, jak to bude dělat
+- TA logika
 @ulend
 @snapend
 
