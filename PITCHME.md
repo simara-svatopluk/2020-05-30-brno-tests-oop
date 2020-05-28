@@ -35,6 +35,11 @@ Pomáhám dostat logiku do entit
 | 44         | 3      |
 | 55         | 1      |
 
+@snap[south span-100 text-gray text-08]
+@[1](Zapomeňme na uložení)
+@[1-2](Soustřeďme se, že tato data potřebujeme vypsat)
+@snapend
+
 ---
 
 @snap[north-west span-50 text-center text-black]
