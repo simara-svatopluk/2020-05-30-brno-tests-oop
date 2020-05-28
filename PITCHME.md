@@ -113,7 +113,7 @@ $cart->remove('ab123');
 ### Jak na testy
 @snapend
 
-@snap[midpoint span-75]
+@snap[span-75]
 @ul[list-spaced-bullets text-09]
 - Vnější pohled na objekt
   - **`$cart->read()`**
@@ -194,7 +194,7 @@ final class Cart
 ### Složitější use-case
 @snapend
 
-@snap[midpoint span-75]
+@snap[span-75]
 @ul[list-spaced-bullets text-09]
 - **Místnosti** v rámci košíku
 - Pomáhají v orientaci ve velkých košících
@@ -279,7 +279,7 @@ final class Cart
 ### Delegování
 @snapend
 
-@snap[midpoint span-75]
+@snap[span-75]
 @ul[list-spaced-bullets text-09]
 - Není třeba dělat vše v košíku
 - Definujeme, co bude dělat někdo jiný
@@ -360,7 +360,7 @@ final class Room
 ### Zapouzdření
 @snapend
 
-@snap[wmidpoint span-75]
+@snap[span-75]
 @ul[list-spaced-bullets text-09]
 - Zajímá nás jen, co košík umí a co vrací
 - V testech nás nezajímá, co je uvnitř
