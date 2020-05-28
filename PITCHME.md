@@ -362,9 +362,10 @@ final class Room
 
 @snap[wmidpoint span-75]
 @ul[list-spaced-bullets text-09]
-- zajímá nás jen, co košík umí a co vrací
-- v testech nás nezajímá, co je uvnitř
-- prostor pro refaktoring
+- Zajímá nás jen, co košík umí a co vrací
+- V testech nás nezajímá, co je uvnitř
+- Prostor pro refaktoring
+- Uvnitř objektů můžeme použít cokoliv (knihovnu, struktury, ...)
 @ulend
 @snapend
 
