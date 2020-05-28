@@ -28,6 +28,10 @@ Pomáhám dostat logiku do entit
 @ulend
 @snapend
 
+@snap[south span-100 text-gray text-08]
+Co si představíte jako první?
+@snapend
+
 ---
 
 @snap[north-west span-50 text-center text-black]
