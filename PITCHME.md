@@ -277,10 +277,12 @@ final class Cart
 }
 ```
 
+@snap[south span-100 text-gray text-08]
 @[1,2,10,15](Rozhraní nám opět definují testy)
 @[3,10-14](Místnosti reprezentují zanořenou strukturu, pojďme těžkou práci delegovat)
 @[3,15-18](Delegováním dosáhneme krátkých objektů)
 @[1-20]
+@snapend
 
 ---
 
