@@ -110,7 +110,7 @@ $cart->remove('ab123');
 ---
 
 @snap[center span-50 text-center text-black text-left]
-#### Vnější pohled na objekt
+### Vnější pohled na objekt
 ```php
 $cart->read()
 ```
@@ -122,12 +122,12 @@ $cart->read()
 ---
 
 @snap[center span-50 text-center text-black text-left]
-#### Vnější pohled na objekt
+### Vnější pohled na objekt
 ```php
 $cart->read()
 ```
 
-#### Ujasnit si očekávání
+### Ujasnit si očekávání
 ```php
 $expected = [...]
 ```
