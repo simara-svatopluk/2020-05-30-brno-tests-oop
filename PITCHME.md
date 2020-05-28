@@ -26,16 +26,14 @@ Pomáhám dostat logiku do entit
 
 ---
 
-@snap[north-west span-50 text-center text-black]
-#### Datová struktura
+@snap[north span-100]
+### Klasický nákupní košík
 @snapend
 
-| item_id | cart_id | product_id | amount |
-|---------|---------|------------|--------|
-| 1       | 1       | 44         | 1      |
-| 2       | 1       | 55         | 1      |
-| 3       | 2       | 15         | 2      |
-| 4       | 2       | 87         | 1      |
+| product_id | amount |
+|------------|--------|
+| 44         | 3      |
+| 55         | 1      |
 
 ---
 
