@@ -81,7 +81,7 @@ Assert::assertSame($expected, $cart->read());
 ---
 
 @snap[north-west span-50 text-center text-black]
-#### Mazání neexistujícího produktu
+#### Mazání neexistujícího
 @snapend
 
 ```php
