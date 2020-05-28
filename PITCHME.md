@@ -38,7 +38,7 @@ Pomáhám dostat logiku do entit
 ---
 
 @snap[north-west span-50 text-center text-black]
-#### Triviální začátek
+#### Triviální test
 @snapend
 
 ```php
