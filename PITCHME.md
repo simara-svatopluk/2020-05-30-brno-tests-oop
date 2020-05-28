@@ -277,9 +277,9 @@ final class Cart
 }
 ```
 
-@[1,2,10,15]
-@[3,10-14]
-@[3,15-18]
+@[1,2,10,15](Rozhraní nám opět definují testy)
+@[3,10-14](Místnosti reprezentují zanořenou strukturu, pojďme těžkou práci delegovat)
+@[3,15-18](Delegováním dosáhneme krátkých objektů)
 @[1-20]
 
 ---
