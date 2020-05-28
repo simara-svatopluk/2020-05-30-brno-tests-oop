@@ -12,7 +12,9 @@ Pomáhám dostat logiku do entit
 
 ---
 
+@snap[north span-100]
 ### Klasický nákupní košík
+@snapend
 
 @snap[middlepoint span-45]
 ![IMAGE](assets/img/groceries-vector-full-shopping-bag-2.png)
