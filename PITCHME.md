@@ -284,7 +284,9 @@ final class Cart
 
 ---
 
+@snap[north-west span-50 text-center text-black]
 ### Delegování
+@snapend
 
 @snap[midpoint span-75]
 @ul[list-spaced-bullets text-09]
