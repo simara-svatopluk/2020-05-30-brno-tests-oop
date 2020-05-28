@@ -25,6 +25,12 @@ Pomáhám dostat logiku do entit
 - Nákupní košík na e-shopu
 - Přidání do košíku, odebrání
 - Produkt může být v košíku vícekrát (množství)
+- | item_id | cart_id | product_id | amount |
+  |---------|---------|------------|--------|
+  | 1       | 1       | 44         | 1      |
+  | 2       | 1       | 55         | 1      |
+  | 3       | 2       | 15         | 2      |
+  | 4       | 2       | 87         | 1      |
 @ulend
 @snapend
 
