@@ -29,7 +29,7 @@ Pomáhám dostat logiku do entit
 @snapend
 
 @snap[south span-100 text-gray text-08]
-Co si představíte jako první?
+@[3](Co si představíte jako první?)
 @snapend
 
 ---
