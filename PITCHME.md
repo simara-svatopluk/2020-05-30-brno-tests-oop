@@ -17,7 +17,7 @@ Pomáhám dostat logiku do entit
 @snapend
 
 @snap[east span-45]
-![IMAGE](assets/img/groceries-vector-full-shopping-bag-2.png&opacity=60&position=left&size=45% 100%)
+![IMAGE](assets/img/groceries-vector-full-shopping-bag-2.png)
 @snapend
 
 @snap[span-75]
