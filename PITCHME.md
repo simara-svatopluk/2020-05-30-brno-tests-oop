@@ -23,7 +23,7 @@ Pomáhám dostat logiku do entit
 @snap[span-75]
 @ul[list-spaced-bullets text-09]
 - Nákupní košík na e-shopu
-- Přidat do košíku, odebrat
+- Přidání do košíku, odebrání
 - Produkt může být v košíku vícekrát (množství)
 @ulend
 @snapend
