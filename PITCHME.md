@@ -13,6 +13,20 @@ Pomáhám dostat logiku do entit
 ---
 
 @snap[north-west span-50 text-center text-black]
+#### Košík
+@snapend
+
+@snap[span-75]
+@ul[list-spaced-bullets text-09]
+- Nákupní košík na e-shopu
+- Přidat do košíku, odebrat
+- Produkt může být v košíku vícekrát (množství)
+@ulend
+@snapend
+
+---
+
+@snap[north-west span-50 text-center text-black]
 #### Triviální začátek
 @snapend
 
