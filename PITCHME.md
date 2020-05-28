@@ -138,7 +138,7 @@ $cart->remove('ab123');
 ---
 
 @snap[north-west span-50 text-center text-black]
-### Jak na testy
+### Při testování
 @snapend
 
 @snap[span-75]
