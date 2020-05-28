@@ -31,6 +31,21 @@ Pomáhám dostat logiku do entit
 ---
 
 @snap[north-west span-50 text-center text-black]
+#### Datová struktura
+@snapend
+
+```sql zoom-18
+CREATE TABLE "cart_item" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "cart_id" integer NOT NULL,
+    "product_id" integer NOT NULL,
+    "amount" integer NOT NULL
+);
+```
+
+---
+
+@snap[north-west span-50 text-center text-black]
 #### Triviální začátek
 @snapend
 
