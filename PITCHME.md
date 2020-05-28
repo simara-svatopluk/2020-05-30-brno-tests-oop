@@ -3,7 +3,7 @@
 # Svaťa Šimara
 
 @snap[south span-100 text-gray text-08]
-Pomáhám firmám dostat logiku do entit
+Pomáhám dostat logiku do entit
 @snapend
 
 ---
