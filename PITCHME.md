@@ -190,11 +190,14 @@ final class Cart
     }
 }
 ```
+
+@snap[south span-100 text-gray text-08]
 @[3,12-15](Čtení může být triviální)
 @[3,4-7,10,11](Pokud produkt v košíku není, tak ho přidáme jednou)
 @[3,4-6,8-11](Pokud produkt v košíku je, počet inkrementujeme)
 @[3,16-19](Odstaňování je triviální)
 @[1-20]
+@snapend
 
 ---
 
