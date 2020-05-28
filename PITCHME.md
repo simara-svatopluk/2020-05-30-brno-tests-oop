@@ -190,7 +190,7 @@ final class Cart
 
 ---
 
-@snap[north-west span-50 text-center text-black]
+@snap[north-west span-75 text-center text-black]
 ### Složitější use-case
 @snapend
 
