@@ -237,12 +237,17 @@ $expected = [
 Assert::assertSame($expected, $cart->read());
 ```
 
+@snap[south span-100 text-gray text-08]
 @[1]
-@[1,2]
-@[1-3]
-@[1-3, 14]
-@[4-13]
+@[1,2](Přidání místnosti)
+@[1-3](Přidání zanořené místnosti)
+@[1-3, 14](Co vlastně očekáváme?)
+@[5,12-13](Produkty mohou být v košíku bez místonosti)
+@[6,10,11](Místnost ve očekávané struktuře, s produkty)
+@[7-9](Zanořená místnost)
+@[4-13](Ujasněné očekávání)
 @[1-14]
+@snapend
 
 ---
 
