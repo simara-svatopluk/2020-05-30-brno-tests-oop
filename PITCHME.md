@@ -13,17 +13,11 @@ Pomáhám dostat logiku do entit
 ---
 
 @snap[north-west span-50 text-center text-black]
-#### Nákupní košík
+### Klasický nákupní košík
 @snapend
 
-@snap[east span-45]
+@snap[middlepoint span-45]
 ![IMAGE](assets/img/groceries-vector-full-shopping-bag-2.png)
-@snapend
-
-@snap[span-75]
-@ul[list-spaced-bullets text-09]
-- Klasický nákupní košík na e-shopu
-@ulend
 @snapend
 
 @snap[south span-100 text-gray text-08]
