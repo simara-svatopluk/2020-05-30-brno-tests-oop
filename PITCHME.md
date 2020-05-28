@@ -41,8 +41,6 @@ Pomáhám dostat logiku do entit
 | 3       | 2       | 15         | 2      |
 | 4       | 2       | 87         | 1      |
 
-@[1,2]
-
 ---
 
 @snap[north-west span-50 text-center text-black]
