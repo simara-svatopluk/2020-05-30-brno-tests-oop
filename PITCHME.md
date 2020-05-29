@@ -444,10 +444,10 @@ final class Room
 ---
 
 @snap[north-west span-50 text-center text-black]
-#### Implementace Místností
+#### Implementace Místnosti
 @snapend
 
-@snap[span-75]
+@snap[span-100]
 @ul[list-spaced-bullets text-09]
 - To byla "jen" jedna z možných implementací
 - Zvenku netušíme, co je uvnitř
