@@ -253,8 +253,42 @@ final class Cart
 @ul[list-spaced-bullets text-09]
 - Hierarchická data se blbě ukládají?
 - Traverzování kolem stromu?
-- Na to existuje plugin do Doctrine?
+- Existuje plugin do Doctrine?
 @ulend
+@snapend
+
+
+@snap[south span-100 text-gray text-08]
+@[4](Na to všechno zapomeneme, a nejprve zjistíme, co se po nás chce.)
+@snapend
+
+---
+
+@snap[north-west span-50 text-center text-black]
+#### Místnosti
+@snapend
+
+```php
+$cart = new Cart();
+$cart->addRoom('bathroom');
+
+$expected = [
+    'bathroom' => [
+        'products' => [],
+    ],
+    'products' => [],
+];
+Assert::assertSame($expected, $cart->read());
+```
+
+@snap[south span-100 text-gray text-08]
+@[1]
+@[1,2](Přidání místnosti)
+@[1-3, 10](Co vlastně očekáváme?)
+@[4,8-9](Produkty mohou být v košíku bez místonosti)
+@[5-7](Místnost ve očekávané struktuře, s produkty)
+@[4-9](Ujasněné očekávání)
+@[1-14]
 @snapend
 
 ---
