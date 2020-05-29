@@ -245,7 +245,7 @@ final class Cart
 
 ---
 
-@snap[north-west span-75 text-center text-black]
+@snap[north-west span-100 text-center text-black]
 ### Co Vás jako první napadne?
 @snapend
 
