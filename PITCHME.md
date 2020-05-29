@@ -464,7 +464,7 @@ final class Room
 
 @snap[span-75]
 @ul[list-spaced-bullets text-09]
-- Objekt zapouzdřuje data chováním.
+- Objekt zapouzdřuje data chováním
   - OOP!
 - Nezajímá nás, co je uvnitř, ale co objekt vrací a přijímá
 @ulend
@@ -472,7 +472,7 @@ final class Room
 
 
 @snap[south span-100 text-gray text-08]
-@[2](Podle mě nejdůležitějsí princip OOP)
+@[1](Podle mě nejdůležitějsí princip OOP)
 @snapend
 
 ---
