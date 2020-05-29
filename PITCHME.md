@@ -444,16 +444,35 @@ final class Room
 ---
 
 @snap[north-west span-50 text-center text-black]
+### Implementace Místností
+@snapend
+
+@snap[span-75]
+@ul[list-spaced-bullets text-09]
+- To byla "jen" jedna z možných implementací
+- Zvenku netušíme, co je uvnitř
+  - Že tam sou další objekty `Room`
+  - Že je tam více plochých seznamů
+@ulend
+@snapend
+
+---
+
+@snap[north-west span-50 text-center text-black]
 ### Zapouzdření
 @snapend
 
 @snap[span-75]
 @ul[list-spaced-bullets text-09]
-- Zajímá nás jen, co košík umí a co vrací
-- V testech nás nezajímá, co je uvnitř
-- Prostor pro refaktoring
-- Uvnitř objektů můžeme použít cokoliv (knihovnu, struktury, ...)
+- Objekt zapouzdřuje data chováním.
+  - OOP!
+- Nezajímá nás, co je uvnitř, ale co objekt vrací a přijímá
 @ulend
+@snapend
+
+
+@snap[south span-100 text-gray text-08]
+@[2](Podle mě nejdůležitějsí princip OOP)
 @snapend
 
 ---
