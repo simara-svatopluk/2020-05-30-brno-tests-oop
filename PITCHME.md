@@ -245,6 +245,20 @@ final class Cart
 
 ---
 
+@snap[north-west span-75 text-center text-black]
+### Místnosti
+@snapend
+
+@snap[span-75]
+@ul[list-spaced-bullets text-09]
+- Hierarchická data se blbě ukládají?
+- Traverzování kolem stromu?
+- Na to existuje plugin do Doctrine?
+@ulend
+@snapend
+
+---
+
 @snap[north-west span-50 text-center text-black]
 #### Místnosti
 @snapend
