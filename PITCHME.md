@@ -449,7 +449,7 @@ final class Room
 
 @snap[span-75]
 @ul[list-spaced-bullets text-09]
-- "Jen" jedna z možných implementací
+- Jen jedna z možných implementací
 - Zvenku netušíme, co je uvnitř
   - Že tam sou další objekty `Room`
   - Že je tam více plochých seznamů
