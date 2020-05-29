@@ -466,7 +466,8 @@ final class Room
 @ul[list-spaced-bullets text-09]
 - Objekt zapouzdřuje data chováním
   - OOP!
-- Nezajímá nás, co je uvnitř, ale co objekt vrací a přijímá
+- Nezajímá nás, co je uvnitř
+- Zajímá nás, co objekt vrací a přijímá
 @ulend
 @snapend
 
