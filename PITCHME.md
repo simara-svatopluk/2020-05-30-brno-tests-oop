@@ -246,7 +246,7 @@ final class Cart
 ---
 
 @snap[north-west span-75 text-center text-black]
-### Místnosti
+### Co Vás jako první napadne?
 @snapend
 
 @snap[span-75]
