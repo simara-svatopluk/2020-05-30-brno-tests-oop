@@ -444,7 +444,7 @@ final class Room
 ---
 
 @snap[north-west span-50 text-center text-black]
-### Implementace Místností
+#### Implementace Místností
 @snapend
 
 @snap[span-75]
