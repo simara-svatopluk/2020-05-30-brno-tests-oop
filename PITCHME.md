@@ -473,7 +473,7 @@ final class Room
 
 
 @snap[south span-100 text-gray text-08]
-@[1](Podle mě nejdůležitějsí princip OOP)
+@[1](A jak na to jste se dnes naučili)
 @snapend
 
 ---
@@ -483,6 +483,22 @@ final class Room
 http://svatasimara.cz/
 
 
+---
 
+
+@snap[north-west span-50 text-center text-black]
+#### Testy ke kvalitnímu objektovému modelu
+@snapend
+
+@snap[span-75]
+@ul[list-spaced-bullets text-09]
+- Očekávání před prvním řádkem kódu
+  - **`$expected = [...]`**
+- Zapouzdření
+  - **`$cart->read()`**
+- Delegování
+  - **`return $this->rooms->toArray()`**
+@ulend
+@snapend
 
 
