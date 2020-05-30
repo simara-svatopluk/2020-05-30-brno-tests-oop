@@ -482,9 +482,7 @@ final class Room
 
 http://svatasimara.cz/
 
-
 ---
-
 
 @snap[north-west span-50 text-center text-black]
 #### Testy ke kvalitnímu objektovému modelu
@@ -544,8 +542,8 @@ http://svatasimara.cz/
 - Přidáváme to prázdného košíku jeden produkt
   - očekávání?
   - Jeden produkt v košíku
-  - `testAddingProductToEmptyCartResultsInCartWithOneProduct`
-  - `testAddingProductToEmptyCartResultsIn`**`$expected`**
+  - `test AddingProduct To EmptyCart ResultsIn CartWithOneProduct`
+  - `test` **$action** **setup** `ResultsIn` **`$expected`**
 @ulend
 @snapend
 
@@ -559,12 +557,15 @@ http://svatasimara.cz/
 - Mazání neexistující produktu
   - očekávání?
   - Vyhozená výjimka
-  - `testRemovingNotExistingProductResultsIn`**`$expected`**
-  - `testRemovingNotExistingProductResultsInThrownException`
+  - `test` **$action** **setup** `ResultsIn` **`$expected`**
+  - `test RemovingNotExistingProduct From NotEmptyCart ResultsIn ThrownException`
 @ulend
 @snapend
 
 ---
 
+### Svaťa Šimara
+
+http://svatasimara.cz/
 
 
