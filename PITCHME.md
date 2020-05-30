@@ -543,7 +543,7 @@ http://svatasimara.cz/
   - očekávání?
   - Jeden produkt v košíku
   - `test AddingProduct To EmptyCart ResultsIn CartWithOneProduct`
-  - `test` **$action** **$setup** `ResultsIn` **`$expected`**
+  - `test` **$action** **$setup** **$expected**
 @ulend
 @snapend
 
@@ -557,8 +557,9 @@ http://svatasimara.cz/
 - Mazání neexistující produktu
   - očekávání?
   - Vyhozená výjimka
-  - `test` **$action** **setup** `ResultsIn` **`$expected`**
-  - `test RemovingNotExistingProduct From NotEmptyCart ResultsIn ThrownException`
+  - `test` **$action** **setup** **$expected**
+  - `test RemovingNotExistingProduct From NotEmptyCart Throws Exception`
+- Preferuji přirozený jazyk před tvrdými pravidly
 @ulend
 @snapend
 
