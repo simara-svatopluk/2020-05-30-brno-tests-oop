@@ -2,18 +2,6 @@
 
 ---
 
-# Svaťa Šimara
-
-@snap[south span-100 text-gray text-08]
-Pomáhám dostat logiku do entit
-@snapend
-
----
-
-# Testy ke kvalitnímu OOP
-
----
-
 @snap[north span-100]
 ### Klasický nákupní košík
 @snapend
