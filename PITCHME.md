@@ -572,8 +572,3 @@ http://svatasimara.cz/
 ### Svaťa Šimara
 
 svatasimara.cz
-
-### svatasimara.cz
-#### svatasimara.cz
-
-
