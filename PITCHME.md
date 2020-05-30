@@ -559,9 +559,23 @@ http://svatasimara.cz/
   - Vyhozená výjimka
   - `test` **$action** **setup** **$expected**
   - `test RemovingNotExistingProduct From NotEmptyCart Throws Exception`
-- Preferuji přirozený jazyk před tvrdými pravidly
 @ulend
 @snapend
+
+---
+@snap[north-west span-50 text-center text-black]
+#### Pojmenování testů
+@snapend
+
+@snap[span-100]
+@ul[list-spaced-bullets text-09]
+- `test AddingProduct To EmptyCart ResultsIn CartWithOneProduct`
+- `test RemovingNotExistingProduct From NotEmptyCart Throws Exception`
+- `test AddingNestedRoom To EmptyCart ResultsIn NestedStructure`
+- Přirozený jazyk před striktními pravidly
+@ulend
+@snapend
+
 
 ---
 
