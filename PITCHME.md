@@ -1,3 +1,5 @@
+![image](assets/svata_slide.png)
+
 ---
 
 # Svaťa Šimara
