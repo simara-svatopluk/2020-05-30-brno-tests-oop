@@ -505,7 +505,7 @@ http://svatasimara.cz/
 #### Pojmenování testů
 @snapend
 
-@snap[span-75]
+@snap[span-100]
 @ul[list-spaced-bullets text-09]
 - Podle názvu metody
   - **`testRead()`**
@@ -521,7 +521,7 @@ http://svatasimara.cz/
 #### Pojmenování testů
 @snapend
 
-@snap[span-75]
+@snap[span-100]
 @ul[list-spaced-bullets text-09]
 - Chci vyjádřit
   - Setup testu (precondition)
@@ -537,7 +537,7 @@ http://svatasimara.cz/
 #### Pojmenování testů
 @snapend
 
-@snap[span-75]
+@snap[span-100]
 @ul[list-spaced-bullets text-09]
 - Přidáváme to prázdného košíku jeden produkt
   - očekávání?
@@ -552,7 +552,7 @@ http://svatasimara.cz/
 #### Pojmenování testů
 @snapend
 
-@snap[span-75]
+@snap[span-100]
 @ul[list-spaced-bullets text-09]
 - Mazání neexistující produktu
   - očekávání?
