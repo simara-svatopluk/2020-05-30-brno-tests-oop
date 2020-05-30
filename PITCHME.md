@@ -543,7 +543,7 @@ http://svatasimara.cz/
   - očekávání?
   - Jeden produkt v košíku
   - `test AddingProduct To EmptyCart ResultsIn CartWithOneProduct`
-  - `test` **$action** **setup** `ResultsIn` **`$expected`**
+  - `test` **$action** **$setup** `ResultsIn` **`$expected`**
 @ulend
 @snapend
 
