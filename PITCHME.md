@@ -542,6 +542,8 @@ http://svatasimara.cz/
 @snap[span-75]
 @ul[list-spaced-bullets text-09]
 - Přidáváme to prázdného košíku jeden produkt
+  - očekávání?
+  - Jeden produkt v košíku
   - `testAddingProductToEmptyCartResultsInCartWithOneProduct`
   - `testAddingProductToEmptyCartResultsIn`**`$expected`**
 @ulend
