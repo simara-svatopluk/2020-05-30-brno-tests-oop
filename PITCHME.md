@@ -557,7 +557,7 @@ http://svatasimara.cz/
 - Mazání neexistující produktu
   - očekávání?
   - Vyhozená výjimka
-  - `test` **$action** **setup** **$expected**
+  - `test` **$action** **$setup** **$expected**
   - `test RemovingNotExistingProduct From NotEmptyCart Throws Exception`
 @ulend
 @snapend
