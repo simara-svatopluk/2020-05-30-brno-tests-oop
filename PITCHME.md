@@ -501,4 +501,68 @@ http://svatasimara.cz/
 @ulend
 @snapend
 
+---
+
+@snap[north-west span-50 text-center text-black]
+#### Pojmenování testů
+@snapend
+
+@snap[span-75]
+@ul[list-spaced-bullets text-09]
+- Podle názvu metody
+  - **`testRead()`**
+  - **`testRead2()`**
+- Striktní pravidla
+  - **`Given_EmptyCart_When_AddProduct_Then_ProductIsInCart`**
+@ulend
+@snapend
+
+---
+
+@snap[north-west span-50 text-center text-black]
+#### Pojmenování testů
+@snapend
+
+@snap[span-75]
+@ul[list-spaced-bullets text-09]
+- Chci vyjádřit
+  - Setup testu (precondition)
+  - Akce
+  - Očekávané chování
+- Pomáhá mi `$expected`
+@ulend
+@snapend
+
+---
+
+@snap[north-west span-50 text-center text-black]
+#### Pojmenování testů
+@snapend
+
+@snap[span-75]
+@ul[list-spaced-bullets text-09]
+- Přidáváme to prázdného košíku jeden produkt
+  - `testAddingProductToEmptyCartResultsInCartWithOneProduct`
+  - `testAddingProductToEmptyCartResultsIn`**`$expected`**
+@ulend
+@snapend
+
+---
+@snap[north-west span-50 text-center text-black]
+#### Pojmenování testů
+@snapend
+
+@snap[span-75]
+@ul[list-spaced-bullets text-09]
+- Mazání neexistující produktu
+  - očekávání?
+  - Vyhozená výjimka
+  - `testRemovingNotExistingProductResultsIn`**`$expected`**
+  - `testRemovingNotExistingProductResultsInThrownException`
+@ulend
+@snapend
+
+---
+
+
 
