@@ -470,7 +470,7 @@ final class Room
 
 ### Svaťa Šimara
 
-http://svatasimara.cz/
+svatasimara.cz
 
 ---
 
